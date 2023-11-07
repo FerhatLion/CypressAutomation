@@ -18,7 +18,7 @@ afterEach(()=>{
     // similar to afterMethod in TestNG
 })
 
-it('Opening a Web Application', ()=>{
+it.skip('Test1 Opening a Web Application', ()=>{
     cy.visit('/registration_form');
     // cy.get(':nth-child(5) > a')
     // .click();
@@ -26,7 +26,7 @@ it('Opening a Web Application', ()=>{
     // .click();
 })
 
-it('Test2', ()=>{
+xit('Test2', ()=>{
     expect(false).to.equal(false);
 })
 
