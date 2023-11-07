@@ -24,8 +24,21 @@ it('Opening a Web Application', ()=>{
     // .click();
     // cy.get(':nth-child(9) > a')
     // .click();
+})
 
+it('Test2', ()=>{
+    expect(false).to.equal(false);
+})
 
+it('Test3', ()=>{
+    expect(false).not. to.equal(true);
+})
+
+it('Test4', ()=>{
+    expect(5).to.equal(5);
+})
+it('Test5', ()=>{
+    expect(true). to.equal('5'==5);
 })
 
 
